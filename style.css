@@ -1,140 +1,88 @@
-.heading{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
+div{
+    background: linear-gradient(to right rgb(241, 224, 224),rgb(8, 8, 8),rgb(103, 103, 158));
+}
+
+.admission{
+    margin-top:10%;
+}
+.img{
     text-align: center;
-    gap: 10%;
-    color: rgb(84, 84, 139);
-    animation: heading 2s ease-in-out;
 }
-@keyframes heading{
-    0%{
-        opacity: 0;
-        transform: translateY(-100%);
-    }
+
+.best{
+    margin-top:5%;
 }
-.lal{
-    font-size: 300%;
-    color: rgb(73, 73, 184);
-}
-.agent{
+.students{
     text-align: center;
-    background-color:white;
-    font-size: 300%;
-    margin-left: 20%;
-    color: rgb(73, 73, 184);
-    margin-right: 18%;
-    animation: agent 2s ease-in-out;
 }
-@keyframes agent{
-    0%{
-        transform: translatey(-100%);
-        opacity: 0;
-    }
+.enquiry{
+    margin-top: 3%;
+    background:rgb(77, 77, 185);
+    color:white;
+}
+.input{
+    margin-left: 10%;
+    width:80%;
+    text-align: center;
+}
+.name{
+    padding:1px;
+    width:60%;
+    border-radius:10px;
+    text-align: center;
+}
+.email{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.phoneno{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.courses{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.query{
+    width:60%;
+    margin-top: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+.subbtn{
+    margin-left: 47%;
+    margin-top: 2%;
+    color:black;
+    background-color: rgb(103, 135, 136);
+    border-radius:1px;
+}
+.bottom{
+    background-color:azure;
+    color:black;
+    text-align:center;
 }
 .icon{
-  display: flex;
-   margin-top: 5%;
-   justify-content: space-between;
-   animation: icon 2s ease-in-out;
-    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    animation: icon 2s ease-in-out;
 }
 @keyframes icon{
     0%{
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
 }
-.family{
-    display: flex;
-    margin-top: 5%;
-    flex-flow: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.top{
+    animation: top 2s ease-in-out;
 }
-.plan{
-    color: blue;
-    text-align: center;
-}
-.end{
-    color: blue;
-}
-.teamass{
-    margin-top: 3%;
-    color: blue;
-}
-.ehead{
-background-color: rgb(55, 55, 121);
-color: white;
-text-align: center;
-}
-.money{
-    color:blue) ;
-    text-align: center;
-}
-
-
-
-
-
-.thead{
-    background-color: rgb(55, 55, 121);
-    color: white;
-    text-align: center;
-}
-.wlp{
-    color: blue;
-    margin-top: 3%;
-}
-.wholelifeplans{
-    
-    color: rgb(55, 55, 121);
-    text-align: center;
-}
-.whead{
-    background-color: rgb(55, 55, 121);
-    color: white;
-    text-align: center;
-}
-.endowerment{
-    
-    color:rgb(55, 55, 121) ;
-    text-align: center;
-}
-.moneyb{
-    color: blue;
-    margin-top: 3%;
-}
-.mhead{
-    background-color: rgb(55, 55, 121);
-    color: white;
-    text-align: center;
-}
-.hraider{
-    margin-top: 3%;
-    color: blue;
-}
-.raider{
-    text-align: center;
-    color: rgb(55, 55, 121);
-}
-.draider{
-    color: white;
-    background-color: rgb(55, 55, 121);
-}
-.family{
-    animation: family 4s ease-in-out;
-}
-@keyframes family{
+@keyframes top{
     0%{
-        opacity: 0;
+        transform: translateY(-100%);
     }
-}
-.image5{
-    text-align: center;
-    font-family: cursive;
-}
-.ending{
-    text-align: center;
-   background-color:seashell;
-    color: goldenrod;
 }
