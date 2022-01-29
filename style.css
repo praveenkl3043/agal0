@@ -1,13 +1,79 @@
-div{
-    background: linear-gradient(to right,rgb(240, 231, 231),rgb(233, 247, 233));
-    height: 100vh;
+.heading{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 10%;
+    color: rgb(84, 84, 139);
+}
+.lal{
+    font-size: 400%;
+    color: rgb(73, 73, 184);
+}
+.agent{
+    text-align: center;
+    background-color:white;
+    font-size: 400%;
+    margin-left: 20%;
+    color: rgb(73, 73, 184);
+}
+.icon{
+   margin-left: 80%;
+   margin-top: 5%;
+    
+}
+.family{
+    display: flex;
+    margin-top: 5%;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plan{
+    color: blue;
     text-align: center;
 }
-
-#btn{
-    margin-top: 5%;
+.teamass{
+    margin-top: 2%;
+    text-align: center;
 }
-.global{
-    
-    margin-top: 5%;
+.ehead{
+background-color: rgb(55, 55, 121);
+color: white;
+text-align: center;
+}
+.money{
+    color:rgb(55, 55, 121) ;
+    text-align: center;
+}
+.teamass{
+    color: rgb(55, 55, 121);
+    text-align: center;
+}
+.thead{
+    background-color: rgb(55, 55, 121);
+    color: white;
+    text-align: center;
+}
+.wholelifeplans{
+    margin-top: 3%;
+    color: rgb(55, 55, 121);
+    text-align: center;
+}
+.whead{
+    background-color: rgb(55, 55, 121);
+    color: white;
+    text-align: center;
+}
+.endowerment{
+    margin-top: 3%;
+    color:rgb(55, 55, 121) ;
+    text-align: center;
+}
+.moneyb{
+    color: blue;
+}
+.mhead{
+    background-color: rgb(55, 55, 121);
+    color: white;
+    text-align: center;
 }
