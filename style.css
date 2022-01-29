@@ -2,24 +2,47 @@
     display: flex;
     flex-direction: row;
     background-color: white;
+    text-align: center;
     gap: 10%;
     color: rgb(84, 84, 139);
+    animation: heading 2s ease-in-out;
+}
+@keyframes heading{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 }
 .lal{
-    font-size: 400%;
+    font-size: 300%;
     color: rgb(73, 73, 184);
 }
 .agent{
     text-align: center;
     background-color:white;
-    font-size: 400%;
+    font-size: 300%;
     margin-left: 20%;
     color: rgb(73, 73, 184);
+    margin-right: 18%;
+    animation: agent 2s ease-in-out;
+}
+@keyframes agent{
+    0%{
+        transform: translatey(-100%);
+        opacity: 0;
+    }
 }
 .icon{
-   margin-left: 80%;
+  display: flex;
    margin-top: 5%;
+   justify-content: space-between;
+   animation: icon 2s ease-in-out;
     
+}
+@keyframes icon{
+    0%{
+        transform: translateX(100%);
+    }
 }
 .family{
     display: flex;
@@ -32,9 +55,12 @@
     color: blue;
     text-align: center;
 }
+.end{
+    color: blue;
+}
 .teamass{
-    margin-top: 2%;
-    text-align: center;
+    margin-top: 3%;
+    color: blue;
 }
 .ehead{
 background-color: rgb(55, 55, 121);
@@ -42,20 +68,25 @@ color: white;
 text-align: center;
 }
 .money{
-    color:rgb(55, 55, 121) ;
+    color:blue) ;
     text-align: center;
 }
-.teamass{
-    color: rgb(55, 55, 121);
-    text-align: center;
-}
+
+
+
+
+
 .thead{
     background-color: rgb(55, 55, 121);
     color: white;
     text-align: center;
 }
-.wholelifeplans{
+.wlp{
+    color: blue;
     margin-top: 3%;
+}
+.wholelifeplans{
+    
     color: rgb(55, 55, 121);
     text-align: center;
 }
@@ -65,15 +96,45 @@ text-align: center;
     text-align: center;
 }
 .endowerment{
-    margin-top: 3%;
+    
     color:rgb(55, 55, 121) ;
     text-align: center;
 }
 .moneyb{
     color: blue;
+    margin-top: 3%;
 }
 .mhead{
     background-color: rgb(55, 55, 121);
     color: white;
     text-align: center;
+}
+.hraider{
+    margin-top: 3%;
+    color: blue;
+}
+.raider{
+    text-align: center;
+    color: rgb(55, 55, 121);
+}
+.draider{
+    color: white;
+    background-color: rgb(55, 55, 121);
+}
+.family{
+    animation: family 4s ease-in-out;
+}
+@keyframes family{
+    0%{
+        opacity: 0;
+    }
+}
+.image5{
+    text-align: center;
+    font-family: cursive;
+}
+.ending{
+    text-align: center;
+   background-color:seashell;
+    color: goldenrod;
 }
